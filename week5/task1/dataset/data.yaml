@@ -1,0 +1,17 @@
+# Run this script
+CLASS_NAMES = ['fruit', 'vegetable']  # paste from classes.txt in order
+
+yaml_content = f"""path: ./dataset
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: {len(CLASS_NAMES)}
+names: {CLASS_NAMES}
+"""
+
+with open('dataset/data.yaml', 'w') as f:
+    f.write(yaml_content)
+
+print("data.yaml created!")
+print(yaml_content)
