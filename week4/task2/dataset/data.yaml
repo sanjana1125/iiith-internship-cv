@@ -4,4 +4,4 @@ val:   images/val
 test:  images/test
 
 nc: 8
-names: ['person', 'car', 'motorcycle', 'bus', 'train', 'truck', 'boat', 'umbrella']
+names: ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck']

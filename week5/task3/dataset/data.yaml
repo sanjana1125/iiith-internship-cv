@@ -1,0 +1,7 @@
+path: /Users/sanjana/Sanjana/internship/week5/task3/dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3
+names: ['bicycle', 'car', 'person']
